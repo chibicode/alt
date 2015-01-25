@@ -1,0 +1,60 @@
+.logo-outer {
+  @media (min-width: $screen-md-min) {
+    margin-bottom: 3em;
+  }
+  margin-bottom: 2em;
+}
+
+.logo {
+  color: $alt-gray-dark;
+  padding: 0.25em 1em;
+  border-radius: 4px;
+  background-color: #fff;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.logo-md {
+  display: inline-block;
+  font-family: $logo-font-family;
+  font-size: $font-size-h1;
+}
+
+.logo-sm {
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+.logo__sm-text {
+  font-family: $logo-font-family;
+  font-size: $font-size-h1;
+  text-decoration: none;
+  padding: 0 2em;
+  display: inline-block;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.logo__menu-trigger {
+  padding: 0.25em;
+  display: inline-block;
+  position: absolute;
+  left: 0.5em;
+  top: 0.8em;
+}
+
+.logo__menu-icon-bar {
+  display: block;
+  width: 18px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: $alt-gray;
+
+  + .logo__menu-icon-bar {
+    margin-top: 4px;
+  }
+}

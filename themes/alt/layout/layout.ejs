@@ -1,0 +1,34 @@
+<%- partial("_partial/head") %>
+<body>
+  <div class="container">
+    <div class="col-md-3 col-sm-10 col-sm-offset-1 col-md-offset-0">
+      <div class="logo-outer">
+        <div class="hidden-xs hidden-sm">
+          <a href="/" class="logo logo-md">
+            alt
+          </a>
+        </div>
+        <div class="hidden-md hidden-lg">
+          <div class="logo logo-sm">
+            <a href="/" class="logo__sm-text">alt</a>
+            <a href="#" class="logo__menu-trigger js-logo-menu-trigger">
+              <span class="logo__menu-icon-bar"></span>
+              <span class="logo__menu-icon-bar"></span>
+              <span class="logo__menu-icon-bar"></span>
+            </a>
+            <div class="mobile-menu js-mobile-menu">
+              <%- partial("_partial/tagline") %>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="side hidden-xs hidden-sm">
+        <%- partial("_partial/side") %>
+      </div>
+    </div>
+    <div class="col-md-8 col-lg-7 col-sm-10 col-sm-offset-1 col-md-offset-1">
+      <%- body %>
+    </div>
+  </div>
+  <%- partial("_partial/scripts") %>
+</body>

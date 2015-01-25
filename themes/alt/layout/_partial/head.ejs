@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><% if (page.title){ %><%= page.title %> | <% } %><%= config.title %><% if (!page.title){ %> | <%= config.subtitle %><% } %></title>
+    <link rel="shortcut icon" href="/og-images/favicon.ico">
+    <link rel="stylesheet" href="/styles/alt.css">
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href='//fonts.googleapis.com/css?family=Megrim'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <meta property="og:image" content="http://alt.chibicode.com/og-images/logo.png" />
+    <meta property="og:title" content="<% if (page.title){ %><%= page.title %><% } else { %><%= config.title %><% } %>" />
+    <meta property="og:description" content="<% if (page.excerpt){ %><%= page.excerpt %><% } else { %><%= config.description %><% } %>" />
+    <meta property="og:url" content="<%= config.url %><%= url_for(page.path) %>" />
+  </head>

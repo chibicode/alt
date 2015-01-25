@@ -1,0 +1,12 @@
+<h2>Articles</h2>
+<ul class="post-list">
+  <% page.posts.each(function(post, i){ %>
+    <li class="post-list__item">
+      <a href="<%- url_for(post.path) %>" class="post-list__item">
+        <span class="text-muted">#<%= post.number %></span> <%= post.title %>
+        <span class="text-muted">&middot;</span>
+        <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished" class="post-list__date"><%= date(post.date, 'MMM D, YYYY') %></time>
+      </a>
+    </li>
+  <% }) %>
+</ul>

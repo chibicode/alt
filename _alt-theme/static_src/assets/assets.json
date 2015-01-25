@@ -1,0 +1,15 @@
+{
+  "css": {
+    "name": "alt.css",
+    "files": [
+      "styles/import.css"
+    ]
+  },
+  "js": {
+    "name": "alt.js",
+    "files": [
+      "bower_components/jquery/dist/jquery.js",
+      "javascripts/alt.js"
+    ]
+  }
+}

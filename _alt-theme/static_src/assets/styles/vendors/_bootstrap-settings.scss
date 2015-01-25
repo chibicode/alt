@@ -1,0 +1,25 @@
+$body-bg: $alt-gray-lighter;
+$text-color: $alt-gray-darker;
+$link-color: $alt-gray-darker;
+$link-hover-color: $alt-gray-darker;
+$text-muted: $alt-gray-dark;
+$blockquote-border-color: $alt-gray-light;
+$hr-border: $alt-gray;
+$code-color: $alt-gray-darker;
+$code-bg: $alt-gray-light;
+$pre-bg: $alt-gray-light;
+$pre-color: $alt-gray-darker;
+
+$font-family-monospace: "Inconsolata", Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-base: $font-family-monospace;
+$font-size-base: 16px;
+$line-height-base: 1.5;
+$font-size-h1: $font-size-base * $golden-ratio;
+$font-size-h2: $font-size-base;
+$font-size-h3: $font-size-base;
+$font-size-h4: $font-size-base;
+$font-size-h5: $font-size-base;
+$font-size-h6: $font-size-base;
+$headings-font-weight: 700;
+$headings-line-height: $line-height-base;
+$blockquote-font-size: $font-size-base;

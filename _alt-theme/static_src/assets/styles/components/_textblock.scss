@@ -1,0 +1,75 @@
+.textblock {
+  a {
+    &:hover {
+      background-color: #fff;
+    }
+  }
+  h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+    @media (min-width: $screen-md-min) {
+      width: 80%;
+    }
+  }
+
+  p, ul, ol, blockquote, pre {
+    margin: 0 0 1em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  blockquote {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  p > img {
+    max-width: 125%;
+    display: block;
+  }
+
+  ul, ol {
+    padding-left: 2em;
+  }
+
+  ul {
+    list-style-type: circle;
+  }
+
+  h2, h3 {
+    &:first-child {
+      margin-top: 0;
+    }
+    font-size: 1em;
+    margin: 2em 0 0.5em;
+    border-bottom: 5px solid $alt-gray-light;
+    padding-bottom: 0.35em;
+  }
+}
+
+.textblock__content {
+  margin-bottom: 4.5em;
+}
+
+.textblock__box {
+  border-radius: 4px;
+  margin-bottom: 1.5em;
+  padding: 1em 1.25em;
+  background-color: #fff;
+}
+
+.textblock__share {
+  margin-bottom: 4.5em;
+  text-align: center;
+}
+
+.textblock__share-button {
+  .fa { margin-right: 0.25em; }
+  font-weight: bold;
+  color: $alt-gray-dark;
+  text-decoration: none;
+  padding: 0.5em 2em;
+  display: inline-block;
+  border-radius: 2em;
+  border: 3px solid $alt-gray;
+}
