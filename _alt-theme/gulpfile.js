@@ -3,7 +3,6 @@
 var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
 var del = require('del');
-var assets = require('./static_src/assets/assets.json');
 var dest = '../themes/alt/source/';
 
 var AUTOPREFIXER_BROWSERS = [
@@ -35,6 +34,7 @@ gulp.task('styles', function() {
 });
 
 gulp.task('assets:styles', ['styles'], function() {
+  var assets = require('./static_src/assets/assets.json');
   return gulp.src(assets.css.files, { cwd: 'static_src/.tmp' })
     .pipe($.concat(assets.css.name))
     .pipe($.if('*.css', $.csso()))
@@ -42,6 +42,7 @@ gulp.task('assets:styles', ['styles'], function() {
 });
 
 gulp.task('assets:javascripts', function() {
+  var assets = require('./static_src/assets/assets.json');
   return gulp.src(assets.js.files, { cwd: 'static_src/assets' })
     .pipe($.concat(assets.js.name))
     .pipe($.uglify())

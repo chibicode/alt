@@ -2,6 +2,7 @@
   "name": "alt",
   "private": true,
   "dependencies": {
-    "bootstrap-sass": "~3.3.3"
+    "bootstrap-sass": "~3.3.3",
+    "fastclick": "~1.0.5"
   }
 }

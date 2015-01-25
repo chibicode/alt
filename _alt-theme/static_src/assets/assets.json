@@ -9,6 +9,7 @@
     "name": "alt.js",
     "files": [
       "bower_components/jquery/dist/jquery.js",
+      "bower_components/fastclick/lib/fastclick.js",
       "javascripts/alt.js"
     ]
   }
