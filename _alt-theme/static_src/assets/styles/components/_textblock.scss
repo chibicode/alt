@@ -23,9 +23,11 @@
     padding-bottom: 0;
   }
 
-  p > img {
-    max-width: 125%;
-    display: block;
+  p > img, pre {
+    max-width: 100%;
+    @media (min-width: $screen-md-min) {
+      max-width: 125%;
+    }
   }
 
   ul, ol {
