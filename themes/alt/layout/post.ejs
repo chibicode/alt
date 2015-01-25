@@ -1,5 +1,5 @@
 <div class="main">
-  <h1 class="main__title"><span class="text-muted">#<%= page.number %> </span><%= page.title %></h1>
+  <h1 class="main__title"><%= page.title %></h1>
   <div class="main__metadata">
     <time datetime="<%= date_xml(page.date) %>" itemprop="datePublished"><%= date(page.date, 'MMM D, YYYY') %></time>
   </div>

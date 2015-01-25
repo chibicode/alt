@@ -1,7 +1,6 @@
 ---
 title: Teaching Someone to Code is Partly a Hardware Problem
 date: '2013-08-13 00:00:00'
-number: 1
 ---
 
 (Note: this article was originally [posted to Medium](https://medium.com/what-i-learned-building/fe6a2067d770).)
