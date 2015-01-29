@@ -4,13 +4,14 @@
       background-color: #fff;
     }
   }
+
   h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     @media (min-width: $screen-md-min) {
       width: 80%;
     }
   }
 
-  p, ul, ol, blockquote, pre {
+  p, ul, ol, blockquote, pre, iframe {
     margin: 0 0 1em;
 
     &:last-child {
@@ -49,7 +50,6 @@
 }
 
 .textblock__content {
-  margin-bottom: 4.5em;
 }
 
 .textblock__box {

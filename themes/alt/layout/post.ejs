@@ -3,9 +3,12 @@
   <div class="main__metadata">
     <time datetime="<%= date_xml(page.date) %>" itemprop="datePublished"><%= date(page.date, 'MMM D, YYYY') %></time>
   </div>
-  <div class="textblock">
+  <div class="main__content textblock">
     <div class="textblock__content">
       <%- page.content %>
     </div>
+  </div>
+  <div class="main__comment">
+    <div id="disqus_thread"></div>
   </div>
 </div>
