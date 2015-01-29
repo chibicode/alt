@@ -1,9 +1,12 @@
 ---
 title: Teaching Someone to Code is Partly a Hardware Problem
 date: '2013-08-13 00:00:00'
+tweet_id: "560896365224419328"
 ---
 
-(Note: this article was originally [posted to Medium](https://medium.com/what-i-learned-building/fe6a2067d770).)
+Note: this article was originally [posted to Medium](https://medium.com/what-i-learned-building/fe6a2067d770):
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p>“Teaching Someone To Code Is Partly A Hardware Problem” by <a href="https://twitter.com/chibicode">@chibicode</a> <a href="https://t.co/rfiyUbHIPW">https://t.co/rfiyUbHIPW</a></p>&mdash; Medium (@Medium) <a href="https://twitter.com/Medium/statuses/369550937817235456">August 19, 2013</a></blockquote>
 
 I taught [my girlfriend](https://twitter.com/ellekasai) to code from April to July of this year. My biggest takeaway: I realized that teaching someone to code is partly a hardware problem. [Codecademy](http://www.codecademy.com/), [Khan Academy](http://ejohn.org/blog/introducing-khan-cs/), [Scratch](http://scratch.mit.edu/) and others have optimized code editors for teaching purposes, but code editors will always be stuck with their software incarnations. I suggest that, in addition to supplying great software and teaching content, we should pair novice coders with great hardware.
 
@@ -118,7 +121,3 @@ Also, someone commented on [Hacker News](https://news.ycombinator.com/item?id=62
 > I think this is a very specific example of trying to learn HTML/CSS and copying a website. For someone trying to learn Python or C or Java might not require such a huge monitor.
 
 Totally agree. I should have mentioned this, as I learned Java and C before any other languages. Nowadays though, many people seem to be learning to code by building web or mobile apps. In that case, a bigger monitor definitely helps. They might be writing JavaScript instead of copying websites, but having an extra room for a web inspector window will come in handy.
-
-Finally, this article was featured by Medium:
-
-<blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p>“Teaching Someone To Code Is Partly A Hardware Problem” by <a href="https://twitter.com/chibicode">@chibicode</a> <a href="https://t.co/rfiyUbHIPW">https://t.co/rfiyUbHIPW</a></p>&mdash; Medium (@Medium) <a href="https://twitter.com/Medium/statuses/369550937817235456">August 19, 2013</a></blockquote>

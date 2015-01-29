@@ -11,12 +11,16 @@
     }
   }
 
-  p, ul, ol, blockquote, pre, iframe {
+  p, ul, ol, blockquote, pre {
     margin: 0 0 1em;
 
     &:last-child {
       margin-bottom: 0;
     }
+  }
+
+  .twitter-tweet-rendered {
+    margin-bottom: 1.25em !important;
   }
 
   blockquote {

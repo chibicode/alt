@@ -6,6 +6,10 @@
   <div class="main__content textblock">
     <div class="textblock__content">
       <%- page.content %>
+      <% if (page.tweet_id) { %>
+      <h2>Thank you for reading. Here's our Twitter account</h2>
+      <blockquote class="twitter-tweet" data-cards="hidden" lang="en"><a href="https://twitter.com/altshu/statuses/<%= page.tweet_id %>"></a></blockquote>
+      <% } %>
     </div>
   </div>
   <div class="main__comment">
